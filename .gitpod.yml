@@ -1,4 +1,4 @@
 tasks:
 - name: Compilar
   command: >
-    cmake . ; make ; ./vdin
+    echo "Generando Makefile"; cmake .; echo "Compilando"; make; echo "Ejecutando aplicación"; ./vdin
